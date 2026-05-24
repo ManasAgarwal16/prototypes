@@ -1,0 +1,30 @@
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Coverage / profiling
+*.prof
+coverage.txt
+coverage.html
+
+# Go workspace files (personal, not shared)
+go.work
+go.work.sum
+
+# Dependencies (only commit if you intentionally vendor)
+vendor/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
