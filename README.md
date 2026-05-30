@@ -8,8 +8,8 @@ Small, self-contained prototypes for learning concurrency and systems concepts h
 |---|---|---|
 | 01 | [goroutines](./01-goroutines) | Spawn concurrent work, wait for it with `sync.WaitGroup` |
 | 02 | [mutex](./02-mutex) | Data races and how `sync.Mutex` fixes them |
-| 03 | semaphore | _coming next_ — limit concurrency to N |
-| 04 | worker-pool | _planned_ — N workers consume from a job channel |
+| 03 | [semaphore](./03-semaphore) | Limit concurrency to N — built two ways (channel, mutex+condvar) |
+| 04 | worker-pool | _coming next_ — N workers consume from a job channel |
 | 05 | connection-pool | _planned_ — acquire/release expensive resources with timeouts |
 | 06 | rate-limiter | _planned_ — token bucket |
 | 07 | circuit-breaker | _planned_ — state machine + concurrency |
