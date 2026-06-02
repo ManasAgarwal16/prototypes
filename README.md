@@ -10,7 +10,7 @@ Small, self-contained prototypes for learning concurrency and systems concepts h
 | 02 | [mutex](./02-mutex) | Data races and how `sync.Mutex` fixes them |
 | 03 | [semaphore](./03-semaphore) | Limit concurrency to N — built two ways (channel, mutex+condvar) |
 | 04 | [worker-pool](./04-worker-pool) | Fan-out/fan-in: N workers consume from a job channel, with `context` cancellation |
-| 05 | connection-pool | _coming next_ — acquire/release expensive resources with timeouts |
+| 05 | [connection-pool](./05-connection-pool) | Capstone: bounded reusable resources — combines mutex, semaphore, channels, context |
 | 06 | rate-limiter | _planned_ — token bucket |
 | 07 | circuit-breaker | _planned_ — state machine + concurrency |
 
